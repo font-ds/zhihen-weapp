@@ -1,0 +1,27 @@
+.login-view{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .top-view{
+        margin-top: 12vh;
+        width: 64vw;
+        padding: 20vw 15vw;
+        border-radius: 5vw;
+        background: -webkit-linear-gradient(top left, #0870FE, #799AF9);
+        View{
+            text-align: center;
+            font-size: 6.5vw;
+            color:white;
+        }
+    }
+    .login{
+        margin-top: 7vh;
+        width: 30vw;
+        text-align: center;
+        padding: 2vw 8vw;
+        background-color: #0870FE;
+        color:white;
+        border-radius: 1vw;
+    }
+}
